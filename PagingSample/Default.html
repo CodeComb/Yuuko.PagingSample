@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="/Scripts/jquery.yuuko-0.9.9.2.min.js"></script>
+    <script src="/yuuko/js"></script>
+    <style>
+        .template {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div data-collection="ArticlePort" data-expression="flow">
+        <div class="template articleport">
+            <h2 data-field="ArticlePort.Title"></h2>
+            <p><small>Published on $ArticlePort._Time</small></p>
+            <p data-field="ArticlePort.Content"></p>
+        </div>
+    </div>
+</body>
+</html>
